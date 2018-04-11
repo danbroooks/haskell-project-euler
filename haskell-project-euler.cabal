@@ -7,7 +7,9 @@ cabal-version: >=1.8
 
 library
   hs-source-dirs:   src
-  build-depends:    base, containers
+  build-depends:    base
+                  , containers
+                  , safe
   exposed-modules:  Solutions
   ghc-options:      -Wall -O3
 
